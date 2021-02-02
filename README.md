@@ -1,4 +1,4 @@
-React and Typescript TO DO application bootstrapped with CRA
+React Flashcards application bootstrapped with CRA
 
 Functionnalités:
 1. Drag and Drop JSON file
