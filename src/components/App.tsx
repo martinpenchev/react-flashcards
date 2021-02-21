@@ -16,7 +16,7 @@ import QuizPage from '../pages/QuizPage';
 class App extends Component<any> {
   render() {
     return (
-      <Router>
+      <Router basename={process.env.PUBLIC_URL}>
         {this.props.quizMode ? <Redirect to="/quiz" /> : null}
         <NavigationBar />
         <Route exact path="/" component={HomePage} />
