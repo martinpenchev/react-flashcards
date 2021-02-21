@@ -1,4 +1,4 @@
-import React from 'react';
+import * as React from 'react';
 
 // Components
 import DragAndDrop from './DragAndDrop';
@@ -58,8 +58,6 @@ class FileTransfer extends React.Component<any, {}> {
                         this.props.StartQuiz();
                     }
                 );
-            } else {
-                // TO DO : handle different file type upload!
             }
         }
     }
